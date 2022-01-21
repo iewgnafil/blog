@@ -56,7 +56,7 @@ module.exports = {
                 //网易云单个歌单id
                 songIds: ['29723011','1887893189','1421069053'],
                 //网易云歌单
-                playlist: '7082462754',
+                playlist: '1890980793',
                 showPlaylist: false,
                 //是否禁用网易云音乐，如果你选择禁用，那么就将使用本地的歌曲，请传入链接
                 disabledNetEaseMusic: false,
@@ -69,16 +69,16 @@ module.exports = {
                     coverUrl: '/avatar.jpg',
                     songs: [
                         {
-                            path: 'https://ooszy.cco.vin/music/Love%20Story.mp3',
+                            path: '/song/LOVE.mp3',
                             //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
-                            songName: 'Love Story',
-                            cover: 'https://p1.music.126.net/JoVareIX82eEzbrYtJLAPA==/109951165084884378.jpg'
+                            songName: 'Love',
+                            cover: '/public/avatar.jpg'
                         },
-                        // {
-                        //     path: '/song/2.mp3',
-                        //     songName: '歌曲2',
-                        //     cover: 'https://p2.music.126.net/8mnn6YiQldsRIHe_nER8wg==/109951162894925733.jpg'
-                        // },
+                        {
+                            path: '/song/Better.mp3',
+                            songName: 'Better',
+                            cover: '/public/avatar.jpg'
+                        },
                     ]
                 }
             }
@@ -136,7 +136,7 @@ module.exports = {
         [
             "link",
             {
-                href: "/public/avatar.jpg",
+                href: "/avatar.jpg",
                 rel: "icon",
             },
         ],
@@ -755,21 +755,21 @@ module.exports = {
             ],
             //友情链接页面
             friend: [
-                '/public/bg/2.jpg'
+                '/bg/2.jpg'
             ],
             //标签页面
             tag: [
-                '/public/bg/2.jpg'
+                '/bg/2.jpg'
             ],
             //心情页面
             mood: [
-                '/public/bg/2.jpg'
+                '/bg/2.jpg'
             ],
         },
 
         //首页背景图片数组，考虑到使用随机图片，打开网站速度变慢，所以移除随机图片，使用自己设置的图片链接
         homeWps: [
-            '/public/bg/2.jpg'
+            '/bg/2.jpg'
         ],
         /* homeWps: [
              '/bg/1.jpg',

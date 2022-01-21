@@ -13,7 +13,7 @@ export const siteData = {
     [
       "link",
       {
-        "href": "/public/avatar.jpg",
+        "href": "/avatar.jpg",
         "rel": "icon"
       }
     ],

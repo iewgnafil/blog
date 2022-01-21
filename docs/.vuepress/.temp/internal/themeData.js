@@ -453,17 +453,17 @@ export const themeData = {
       "/bg/3.JPG"
     ],
     "friend": [
-      "/public/bg/2.jpg"
+      "/bg/2.jpg"
     ],
     "tag": [
-      "/public/bg/2.jpg"
+      "/bg/2.jpg"
     ],
     "mood": [
-      "/public/bg/2.jpg"
+      "/bg/2.jpg"
     ]
   },
   "homeWps": [
-    "/public/bg/2.jpg"
+    "/bg/2.jpg"
   ],
   "homeWpsMobile": [
     "https://ooszy.cco.vin/img/blog-note/929842.jpg"
