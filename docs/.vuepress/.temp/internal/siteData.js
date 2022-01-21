@@ -13,7 +13,7 @@ export const siteData = {
     [
       "link",
       {
-        "href": "https://img2.woyaogexing.com/2022/01/15/4b155a14530541ea83af80ad88b7389d!400x400.jpeg",
+        "href": "/public/avatar.jpg",
         "rel": "icon"
       }
     ],

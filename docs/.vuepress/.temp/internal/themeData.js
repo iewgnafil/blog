@@ -110,7 +110,7 @@ export const themeData = {
   ],
   "darkMode": false,
   "repo": "https://github.com/iewganfil",
-  "repoIconClass": "aurora-navbar-github",
+  "repoIconClass": "IEWGANFIL",
   "docsRepo": "https://github.com/iewganfil",
   "githubActions": true,
   "docsBranch": "main",
@@ -383,7 +383,7 @@ export const themeData = {
         {
           "title": "IEWGANFIL",
           "url": "https://gitee.com/iewgnafil",
-          "logo": "https://img2.woyaogexing.com/2022/01/18/838574920db94afd879ab1f207bc46ef!400x400.jpeg",
+          "logo": "/public/avatar.jpg",
           "describe": "人生若只是初见,何事秋风悲画扇"
         }
       ]
@@ -437,7 +437,7 @@ export const themeData = {
     "author": "IEWGANFIL",
     "preBlog": "IFL",
     "suffixBlog": " CODING",
-    "avatar": "/avatar.jpg"
+    "avatar": "/public/avatar.jpg"
   },
   "showOnlineMood": true,
   "showMoodEdit": false,
@@ -453,17 +453,17 @@ export const themeData = {
       "/bg/3.JPG"
     ],
     "friend": [
-      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
+      "/public/bg/2.jpg"
     ],
     "tag": [
-      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
+      "/public/bg/2.jpg"
     ],
     "mood": [
-      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
+      "/public/bg/2.jpg"
     ]
   },
   "homeWps": [
-    "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202109/3d05c59d86ea52290cd9053919476cf8--2885164731.jpg"
+    "/public/bg/2.jpg"
   ],
   "homeWpsMobile": [
     "https://ooszy.cco.vin/img/blog-note/929842.jpg"

@@ -40,7 +40,13 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1642740200000,
+    "contributors": [
+      {
+        "name": "iewgnafil",
+        "email": "1519467168@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }

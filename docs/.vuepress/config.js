@@ -136,7 +136,7 @@ module.exports = {
         [
             "link",
             {
-                href: "https://img2.woyaogexing.com/2022/01/15/4b155a14530541ea83af80ad88b7389d!400x400.jpeg",
+                href: "/public/avatar.jpg",
                 rel: "icon",
             },
         ],
@@ -295,7 +295,7 @@ module.exports = {
         //项目地址
         repo: "https://github.com/iewganfil",
 
-        repoIconClass: 'aurora-navbar-github',
+        repoIconClass: 'IEWGANFIL',
 
         //md文件的仓库地址
         docsRepo: 'https://github.com/iewganfil',
@@ -593,7 +593,7 @@ module.exports = {
                         url: "https://gitee.com/iewgnafil",
 
                         //站点logo
-                        logo: "https://img2.woyaogexing.com/2022/01/18/838574920db94afd879ab1f207bc46ef!400x400.jpeg",
+                        logo: "/public/avatar.jpg",
 
                         //站点描述
                         describe: "人生若只是初见,何事秋风悲画扇"
@@ -727,7 +727,7 @@ module.exports = {
             suffixBlog: " CODING",
 
             //头像，请放置在docs/public目录下，或者请保证此图片链接能够跨域访问，否则头像不能正常显示
-            avatar: "/avatar.jpg",
+            avatar: "/public/avatar.jpg",
         },
 
         //是否展示从网络上请求回来的说说 如果启用，请自己写后台服务，修改源码，目前暂未在主题中加入，期望在将来能够实现，组件位置docs/.vuepress/theme/lib/client/components/Mood.vue
@@ -755,21 +755,21 @@ module.exports = {
             ],
             //友情链接页面
             friend: [
-                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                '/public/bg/2.jpg'
             ],
             //标签页面
             tag: [
-                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                '/public/bg/2.jpg'
             ],
             //心情页面
             mood: [
-                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                '/public/bg/2.jpg'
             ],
         },
 
         //首页背景图片数组，考虑到使用随机图片，打开网站速度变慢，所以移除随机图片，使用自己设置的图片链接
         homeWps: [
-            'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202109/3d05c59d86ea52290cd9053919476cf8--2885164731.jpg'
+            '/public/bg/2.jpg'
         ],
         /* homeWps: [
              '/bg/1.jpg',
