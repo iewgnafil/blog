@@ -89,6 +89,86 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "扁平化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "实现方法",
+        "slug": "实现方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "扩展：手写flat",
+            "slug": "扩展-手写flat",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/study/study1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "防抖和节流",
+    "headers": [],
+    "path": "/study/study2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "输出什么",
+    "headers": [
+      {
+        "level": 3,
+        "title": "map",
+        "slug": "map",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "parseInt",
+        "slug": "parseint",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "回到真实的事例上",
+        "slug": "回到真实的事例上",
+        "children": []
+      }
+    ],
+    "path": "/study/study3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "跨域",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常见的跨域场景",
+        "slug": "常见的跨域场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "特比说明",
+        "slug": "特比说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "跨域的解决方案",
+        "slug": "跨域的解决方案",
+        "children": []
+      }
+    ],
+    "path": "/study/study4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -173,16 +253,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

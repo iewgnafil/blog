@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/blog/",
   "lang": "zh-CN",
   "title": "IEWGANFIL",
   "description": "",
@@ -13,7 +13,7 @@ export const siteData = {
     [
       "link",
       {
-        "href": "/avatar.jpg",
+        "href": "https://img2.woyaogexing.com/2022/01/15/4b155a14530541ea83af80ad88b7389d!400x400.jpeg",
         "rel": "icon"
       }
     ],
@@ -27,17 +27,4 @@ export const siteData = {
     ]
   ],
   "locales": {}
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSiteData) {
-    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ siteData }) => {
-    __VUE_HMR_RUNTIME__.updateSiteData(siteData)
-  })
 }

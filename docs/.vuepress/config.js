@@ -136,7 +136,7 @@ module.exports = {
         [
             "link",
             {
-                href: "/avatar.jpg",
+                href: "https://img2.woyaogexing.com/2022/01/15/4b155a14530541ea83af80ad88b7389d!400x400.jpeg",
                 rel: "icon",
             },
         ],
@@ -165,6 +165,8 @@ module.exports = {
     title: "IEWGANFIL",
 
     lang: 'zh-CN',
+
+    base: '/blog/',
 
     //设置运行npm run dev的端口
     port: 8080,
@@ -591,7 +593,7 @@ module.exports = {
                         url: "https://gitee.com/iewgnafil",
 
                         //站点logo
-                        logo: "/avatar.jpg",
+                        logo: "https://img2.woyaogexing.com/2022/01/18/838574920db94afd879ab1f207bc46ef!400x400.jpeg",
 
                         //站点描述
                         describe: "人生若只是初见,何事秋风悲画扇"
@@ -658,6 +660,7 @@ module.exports = {
         //公告，是一个数组，支持图片，HTML
         message: [
             "STUDY CODING",
+            "⭐⭐⭐⭐⭐"
         ],
 
         //文章底部最大推荐文章数 默认值为30
@@ -752,23 +755,21 @@ module.exports = {
             ],
             //友情链接页面
             friend: [
-                '/bg/2.JPG',
-                '/bg/3.JPG'
+                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
             ],
             //标签页面
             tag: [
-                '/bg/2.JPG'
+                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
             ],
             //心情页面
             mood: [
-                '/bg/2.JPG'
+                'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
             ],
         },
 
         //首页背景图片数组，考虑到使用随机图片，打开网站速度变慢，所以移除随机图片，使用自己设置的图片链接
         homeWps: [
-            '/bg/2.JPG',
-            '/bg/3.JPG'
+            'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202109/3d05c59d86ea52290cd9053919476cf8--2885164731.jpg'
         ],
         /* homeWps: [
              '/bg/1.jpg',
@@ -790,7 +791,7 @@ module.exports = {
         ],
 
         //首页文章显示条数，默认为4，此值不推荐设置太大
-        pageSize: 4,
+        pageSize: 3,
 
         //侧边栏配置
         //github地址

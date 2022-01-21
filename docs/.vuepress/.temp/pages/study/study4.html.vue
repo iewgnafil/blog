@@ -1,0 +1,39 @@
+<template><h1 id="什么是跨域" tabindex="-1"><a class="header-anchor" href="#什么是跨域" aria-hidden="true">#</a> 什么是跨域</h1>
+<p>浏览器都具有同源策略  --- 协议 + 域名 + 端口  都相同</p>
+<p>http://   www   .    abc.com  :    8080   /    detail   <br>
+协议    子域名       主域名        端口        请求资源地址</p>
+<ul>
+<li>
+<p>同源策略限制了ajax请求</p>
+</li>
+<li>
+<p>没有被同源策略所影响的三个标签</p>
+</li>
+</ul>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>  <span class="token operator">&lt;</span>img src<span class="token operator">=</span>"xxx<span class="token operator">></span> 
+  <span class="token operator">&lt;</span>link href<span class="token operator">=</span>"xxx<span class="token operator">></span>
+  <span class="token operator">&lt;</span>script src<span class="token operator">=</span><span class="token string">"xxx"</span><span class="token operator">></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="常见的跨域场景" tabindex="-1"><a class="header-anchor" href="#常见的跨域场景" aria-hidden="true">#</a> 常见的跨域场景</h2>
+<p>http://www.a.com/a.js   <br>
+http://www.a.com/b.js      同一个域名，允许通信</p>
+<p>http://www.a.com/a.js     <br>
+https://www.a.com/a.js     协议不同，跨域</p>
+<p>http://www.a.com/a.js      <br>
+http://script.a.com/a.js	 主域相同，子域不相同，跨域</p>
+<h2 id="特比说明" tabindex="-1"><a class="header-anchor" href="#特比说明" aria-hidden="true">#</a> 特比说明</h2>
+<ol>
+<li>如果是端口和协议照成的跨域，前端是没有办法解决的</li>
+<li>跨域仅仅只是根据url的首部 来识别，不会根据这个首部对应得ip地址来判断</li>
+<li>跨域斌不是请求没有发出去，请求时能发出去得，服务器也是能响应的，只是响应结果被浏览器拦截了</li>
+</ol>
+<h2 id="跨域的解决方案" tabindex="-1"><a class="header-anchor" href="#跨域的解决方案" aria-hidden="true">#</a> 跨域的解决方案</h2>
+<ol>
+<li>jsonp  <br>
+原理：<strong>利用script标签上的src属性不会被同源的策略所拦截的这一机制</strong>，将我们要请求的url地址，添加到script的src属性中，且携带上前端全局下的函数名作为参数给到后端，后端获取到前端传递的函数名，然后返回该函数的调用语法，将要返回的数据放在该函数的调用中作为参数，当浏览器接收到全局下的函数被调用的后端响应，会自动执行该函数，从而从参数中获取到后端返回的数据</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>需要对方的服务器做支持才可以</li>
+<li>只支持<strong>get</strong> 请求，有局限性，可能会遭到 XSS攻击</li>
+</ol>
+</template>

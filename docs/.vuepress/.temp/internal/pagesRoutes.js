@@ -2,6 +2,10 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-245bbacd","/how-to-write-article.html",{},["/how-to-write-article","/how-to-write-article.md"]],
+  ["v-7ffc659c","/study/study1.html",{},["/study/study1","/study/study1.md"]],
+  ["v-7c92b45e","/study/study2.html",{},["/study/study2","/study/study2.md"]],
+  ["v-79290320","/study/study3.html",{},["/study/study3","/study/study3.md"]],
+  ["v-75bf51e2","/study/study4.html",{},["/study/study4","/study/study4.md"]],
   ["v-3706649a","/404.html",{},["/404"]],
   ["v-8daa1a0e","/",{},["/index.html"]],
   ["v-74bc627b","/about/",{},["/about/index.html"]],

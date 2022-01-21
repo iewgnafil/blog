@@ -101,18 +101,14 @@ export const data = {
       "children": []
     }
   ],
-  "git": {}
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
+  "git": {
+    "updatedTime": 1642668034000,
+    "contributors": [
+      {
+        "name": "iewgnafil",
+        "email": "1519467168@qq.com",
+        "commits": 1
+      }
+    ]
   }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

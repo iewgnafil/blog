@@ -383,7 +383,7 @@ export const themeData = {
         {
           "title": "IEWGANFIL",
           "url": "https://gitee.com/iewgnafil",
-          "logo": "/avatar.jpg",
+          "logo": "https://img2.woyaogexing.com/2022/01/18/838574920db94afd879ab1f207bc46ef!400x400.jpeg",
           "describe": "人生若只是初见,何事秋风悲画扇"
         }
       ]
@@ -408,7 +408,8 @@ export const themeData = {
   "startRunTime": "1/19/2022 12:22:00",
   "prefixRuntime": "小破站已运行",
   "message": [
-    "STUDY CODING"
+    "STUDY CODING",
+    "⭐⭐⭐⭐⭐"
   ],
   "recommendPageLength": 30,
   "recommendNoTitle": "`╮(￣▽￣)╭`",
@@ -452,24 +453,22 @@ export const themeData = {
       "/bg/3.JPG"
     ],
     "friend": [
-      "/bg/2.JPG",
-      "/bg/3.JPG"
+      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
     ],
     "tag": [
-      "/bg/2.JPG"
+      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
     ],
     "mood": [
-      "/bg/2.JPG"
+      "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg"
     ]
   },
   "homeWps": [
-    "/bg/2.JPG",
-    "/bg/3.JPG"
+    "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202109/3d05c59d86ea52290cd9053919476cf8--2885164731.jpg"
   ],
   "homeWpsMobile": [
     "https://ooszy.cco.vin/img/blog-note/929842.jpg"
   ],
-  "pageSize": 4,
+  "pageSize": 3,
   "githubUrl": "https://gitee.com/iewgnafil",
   "latestPageSize": 6,
   "showHomePageImg": false,
@@ -552,17 +551,4 @@ export const themeData = {
   ],
   "backToHome": "Take me home",
   "openInNewWindow": "open in new window"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }
