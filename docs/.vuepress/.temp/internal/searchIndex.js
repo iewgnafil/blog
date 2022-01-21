@@ -89,6 +89,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "相册",
+    "headers": [],
+    "path": "/photos/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "扁平化",
     "headers": [
       {
@@ -153,15 +160,34 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "特比说明",
-        "slug": "特比说明",
+        "title": "特别说明",
+        "slug": "特别说明",
         "children": []
       },
       {
         "level": 2,
         "title": "跨域的解决方案",
         "slug": "跨域的解决方案",
-        "children": []
+        "children": [
+          {
+            "level": 3,
+            "title": "1. jsonp",
+            "slug": "_1-jsonp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. cors",
+            "slug": "_2-cors",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. postMessage",
+            "slug": "_3-postmessage",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/study/study4.html",

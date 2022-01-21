@@ -1,4 +1,7 @@
 export const themeData = {
+  "donate": {
+    "articlePage": false
+  },
   "navbar": [
     {
       "text": "必应搜索",
@@ -57,7 +60,7 @@ export const themeData = {
     },
     {
       "text": "学习相关",
-      "iconClass": "aurora-navbar-shoulijindu-xuanzhong",
+      "iconClass": "aurora-navbar-kechengguanli",
       "children": [
         {
           "text": "前端一百问",
@@ -100,6 +103,11 @@ export const themeData = {
     {
       "text": "time",
       "link": "/archive",
+      "iconClass": "aurora-navbar-shoulijindu-xuanzhong"
+    },
+    {
+      "text": "photo",
+      "link": "/photos/readme.md",
       "iconClass": "aurora-navbar-si-glyph-egg"
     },
     {
@@ -146,7 +154,7 @@ export const themeData = {
       "aHref": "https://juejin.cn/user/1082363860234023",
       "isHome": true,
       "show": true,
-      "symbol": "#icon-stackoverflow",
+      "symbol": "#icon-juejin",
       "sidebar": true
     },
     {
@@ -174,7 +182,7 @@ export const themeData = {
   "logoTitle": "IEWGANFIL",
   "headTitle": "this is headTitle",
   "description": "IEWGANFIL 学习网站",
-  "keyword": "vuepress主题,vuepress theme,生活琐事,二次元博客,简约博客,博客主题,静态主题",
+  "keyword": "vuepress主题,vuepress theme,生活琐事,简约博客,博客主题,静态主题",
   "slideTime": 300000,
   "randomSaw": "https://international.v1.hitokoto.cn/?c=b&max_length=45",
   "about": [
@@ -194,7 +202,6 @@ export const themeData = {
       "tag": [
         "coding",
         "电影",
-        "安静",
         "音乐",
         "懒"
       ],
@@ -303,7 +310,7 @@ export const themeData = {
         },
         {
           "name": "git",
-          "score": 78
+          "score": 50
         },
         {
           "name": "Ctrl C V",
@@ -383,7 +390,7 @@ export const themeData = {
         {
           "title": "IEWGANFIL",
           "url": "https://gitee.com/iewgnafil",
-          "logo": "/public/avatar.jpg",
+          "logo": "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
           "describe": "人生若只是初见,何事秋风悲画扇"
         }
       ]
@@ -422,7 +429,7 @@ export const themeData = {
   "defaultBlur": 1,
   "split": "~",
   "comment": {
-    "showComment": true,
+    "showComment": false,
     "serverURL": "https://aurora-local-7hrjb6mp8-qsyyke.vercel.app/",
     "emojis": [
       "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus",
@@ -437,7 +444,7 @@ export const themeData = {
     "author": "IEWGANFIL",
     "preBlog": "IFL",
     "suffixBlog": " CODING",
-    "avatar": "/public/avatar.jpg"
+    "avatar": "/avatar.jpg"
   },
   "showOnlineMood": true,
   "showMoodEdit": false,
@@ -466,7 +473,7 @@ export const themeData = {
     "/bg/2.jpg"
   ],
   "homeWpsMobile": [
-    "https://ooszy.cco.vin/img/blog-note/929842.jpg"
+    "/bg/4.jpg"
   ],
   "pageSize": 3,
   "githubUrl": "https://gitee.com/iewgnafil",
@@ -530,8 +537,8 @@ export const themeData = {
     "method": "GET",
     "urlApi": "https://v1.hitokoto.cn/?encode=text&c=a"
   },
-  "homeTopText": "置顶",
-  "sidebarDesc": "MUSIC、COGING、STUDY",
+  "homeTopText": "Top",
+  "sidebarDesc": "COGING、STUDY",
   "locales": {
     "/": {
       "selectLanguageName": "English"

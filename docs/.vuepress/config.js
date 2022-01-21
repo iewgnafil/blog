@@ -54,12 +54,12 @@ module.exports = {
             'player',
             {
                 //网易云单个歌单id
-                songIds: ['29723011','1887893189','1421069053'],
+                songIds: ['2','1887893189','1421069053'],
                 //网易云歌单
                 playlist: '1890980793',
                 showPlaylist: false,
                 //是否禁用网易云音乐，如果你选择禁用，那么就将使用本地的歌曲，请传入链接
-                disabledNetEaseMusic: false,
+                disabledNetEaseMusic: true,
 
                 //请求接口的baseURL
                 serverUrl: 'https://netease-cloud-music-api-aurora.vercel.app/',
@@ -69,16 +69,28 @@ module.exports = {
                     coverUrl: '/avatar.jpg',
                     songs: [
                         {
-                            path: '/song/LOVE.mp3',
-                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
-                            songName: 'Love',
-                            cover: '/public/avatar.jpg'
+                            path: 'https://link.hhtjim.com/163/1309689297.mp3',
+                            songName: 'Better',
+                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202112/e377baa79eee554fb1a509dcd8d4b826--4033464894.jpg'
                         },
                         {
-                            path: '/song/Better.mp3',
-                            songName: 'Better',
-                            cover: '/public/avatar.jpg'
+                            path: 'https://link.hhtjim.com/163/106212.mp3',
+                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
+                            songName: 'Love The Way You Lie',
+                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
                         },
+                        {
+                            path: 'https://link.hhtjim.com/163/1484043441.mp3',
+                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
+                            songName: 'What About',
+                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/1393553542.mp3',
+                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
+                            songName: 'Affection',
+                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                        }
                     ]
                 }
             }
@@ -136,7 +148,7 @@ module.exports = {
         [
             "link",
             {
-                href: "/avatar.jpg",
+                href: "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
                 rel: "icon",
             },
         ],
@@ -173,6 +185,7 @@ module.exports = {
 
     //themeConfig的所有配置，都是主题配置，包含默认主题配置项
     themeConfig: {
+        donate:{articlePage: false},
         //这里配置导航栏项，建议将navbar提取出，比如navbar.js
         navbar: [
             {
@@ -237,7 +250,7 @@ module.exports = {
             },
             {
                 text: '学习相关',
-                iconClass: 'aurora-navbar-shoulijindu-xuanzhong',
+                iconClass: 'aurora-navbar-kechengguanli',
                 children: [
                     {
                         text: '前端一百问',
@@ -280,6 +293,11 @@ module.exports = {
             {
                 text: "time",
                 link: '/archive',
+                iconClass: 'aurora-navbar-shoulijindu-xuanzhong'
+            },
+            {
+                text: "photo",
+                link: '/photos/readme.md',
                 iconClass: 'aurora-navbar-si-glyph-egg'
             },
             {
@@ -380,7 +398,7 @@ module.exports = {
                 aHref: "https://juejin.cn/user/1082363860234023",
                 isHome: true,
                 show: true,
-                symbol: '#icon-stackoverflow',
+                symbol: '#icon-juejin',
                 sidebar: true
             },
             {
@@ -417,7 +435,7 @@ module.exports = {
         description: "IEWGANFIL 学习网站",
 
         //站点关键词，在后续版本中，还需优化 请使用英文状态下的逗号','隔开
-        keyword: "vuepress主题,vuepress theme,生活琐事,二次元博客,简约博客,博客主题,静态主题",
+        keyword: "vuepress主题,vuepress theme,生活琐事,简约博客,博客主题,静态主题",
 
         //样式控制面板打开之后，休眠多长时间自动关闭面板，单位毫秒
         slideTime: 300000,
@@ -442,7 +460,6 @@ module.exports = {
                 tag: [
                     "coding",
                     "电影",
-                    "安静",
                     "音乐",
                     "懒",
                 ],
@@ -545,7 +562,7 @@ module.exports = {
                     },
                     {
                         name: "git",
-                        score: 78,
+                        score: 50,
                     },
                     {
                         name: "Ctrl C V",
@@ -593,7 +610,7 @@ module.exports = {
                         url: "https://gitee.com/iewgnafil",
 
                         //站点logo
-                        logo: "/public/avatar.jpg",
+                        logo: "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
 
                         //站点描述
                         describe: "人生若只是初见,何事秋风悲画扇"
@@ -701,7 +718,7 @@ module.exports = {
         //评论配置 请自己查看文档配置 https://aurora.cco.vin/config/comment/
         comment: {
             //是否显示评论
-            showComment: true,
+            showComment: false,
             serverURL: 'https://aurora-local-7hrjb6mp8-qsyyke.vercel.app/',
             emojis: [
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
@@ -727,7 +744,7 @@ module.exports = {
             suffixBlog: " CODING",
 
             //头像，请放置在docs/public目录下，或者请保证此图片链接能够跨域访问，否则头像不能正常显示
-            avatar: "/public/avatar.jpg",
+            avatar: "/avatar.jpg",
         },
 
         //是否展示从网络上请求回来的说说 如果启用，请自己写后台服务，修改源码，目前暂未在主题中加入，期望在将来能够实现，组件位置docs/.vuepress/theme/lib/client/components/Mood.vue
@@ -786,7 +803,7 @@ module.exports = {
             "https://ooszy.cco.vin/img/blog-note/929842.jpg",
         ],*/
         homeWpsMobile: [
-            'https://ooszy.cco.vin/img/blog-note/929842.jpg',
+            '/bg/4.jpg',
             // '/bg/3.jpg',
         ],
 
@@ -934,10 +951,10 @@ module.exports = {
         * */
 
         // 首页置顶文字
-        homeTopText: '置顶',
+        homeTopText: 'Top',
 
         //侧边栏一句话描述
-        sidebarDesc: 'MUSIC、COGING、STUDY',
+        sidebarDesc: 'COGING、STUDY',
         /*
         * 下面的是v1.13.0版本的配置
         * */

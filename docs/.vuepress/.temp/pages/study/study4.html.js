@@ -5,9 +5,9 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {
     "date": "2022/1/21 20:23",
-    "coverUrl": "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202107/1d1b3d851a75b9d500b731bea0286af8--2560511577.jpg",
+    "coverUrl": "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg",
     "sticky": true,
-    "keyword": "设置keyword,设置keyword,设置keyword,设置keyword",
+    "keyword": "跨域,jsonp,cros,postMessage",
     "description": "跨域",
     "title": "跨域",
     "tag": [
@@ -28,15 +28,34 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "特比说明",
-      "slug": "特比说明",
+      "title": "特别说明",
+      "slug": "特别说明",
       "children": []
     },
     {
       "level": 2,
       "title": "跨域的解决方案",
       "slug": "跨域的解决方案",
-      "children": []
+      "children": [
+        {
+          "level": 3,
+          "title": "1. jsonp",
+          "slug": "_1-jsonp",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "2. cors",
+          "slug": "_2-cors",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "3. postMessage",
+          "slug": "_3-postmessage",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {

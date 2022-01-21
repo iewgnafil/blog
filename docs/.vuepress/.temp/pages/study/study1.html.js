@@ -5,7 +5,7 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {
     "date": "2022/1/20 20:23",
-    "coverUrl": "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202109/3d05c59d86ea52290cd9053919476cf8--2885164731.jpg",
+    "coverUrl": "http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202112/4df6635c747bc083c7f159628e545666--2426815410.jpg",
     "sticky": true,
     "keyword": "设置keyword,设置keyword,设置keyword,设置keyword",
     "description": "数组扁平化且删除重复数据",
