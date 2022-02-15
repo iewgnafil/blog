@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/blog/",
+  "base": "/",
   "lang": "zh-CN",
   "title": "IEWGANFIL",
   "description": "",
@@ -13,7 +13,7 @@ export const siteData = {
     [
       "link",
       {
-        "href": "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
+        "href": "https://s2.loli.net/2022/01/21/PXGSkwrIpBiOUm4.jpg",
         "rel": "icon"
       }
     ],

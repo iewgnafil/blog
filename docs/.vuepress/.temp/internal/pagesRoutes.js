@@ -2,7 +2,11 @@ import { Vuepress } from '@vuepress/client/lib/components/Vuepress'
 
 const routeItems = [
   ["v-245bbacd","/how-to-write-article.html",{},["/how-to-write-article","/how-to-write-article.md"]],
-  ["v-4689fab5","/photos/",{},["/photos/index.html","/photos/readme.md"]],
+  ["v-3f77dce2","/JS/%E5%8E%9F%E7%94%9FJS.html",{},["/JS/原生JS.html","/JS/%E5%8E%9F%E7%94%9FJS","/JS/原生JS.md","/JS/%E5%8E%9F%E7%94%9FJS.md"]],
+  ["v-39cc4c5a","/Navigation/interview.html",{},["/Navigation/interview","/Navigation/interview.md"]],
+  ["v-0359f486","/Navigation/interview2.html",{},["/Navigation/interview2","/Navigation/interview2.md"]],
+  ["v-d40e49ba","/Navigation/navigation.html",{},["/Navigation/navigation","/Navigation/navigation.md"]],
+  ["v-af0475ae","/Navigation/PDF.html",{},["/Navigation/PDF","/Navigation/PDF.md"]],
   ["v-7ffc659c","/study/study1.html",{},["/study/study1","/study/study1.md"]],
   ["v-7c92b45e","/study/study2.html",{},["/study/study2","/study/study2.md"]],
   ["v-79290320","/study/study3.html",{},["/study/study3","/study/study3.md"]],

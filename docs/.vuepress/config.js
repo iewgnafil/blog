@@ -38,13 +38,13 @@ module.exports = {
         [
             'vuepress-plugin-coze',
             {
-                appId: '在leancloud中查看你的appId',
-                appKey: '在leancloud中查看你的appKey',
-                masterKey: '在leancloud中查看你的masterKey',
+                appId: 'lzzFTWdJ42SsTrlGnuyQ5hQT-MdYXbMMI',
+                appKey: 'tHt7EVT9wSp1tMt2rDzJmaSu',
+                masterKey: 'UsmiiAj8ENmDFVhShzgczvDP',
                 //下面这些是可选的
                 avatarPath: '/avatar.jpg',//说说头像url
                 registerPath: '/aurora-register', //自定义插件默认提供的注册页面路由，请在前面加上/
-                onlyAdministrator: false //是否运行其他注册的用户发布说说，true表示只有管理员可以发布
+                onlyAdministrator: true //是否运行其他注册的用户发布说说，true表示只有管理员可以发布
 
             }
         ],
@@ -66,31 +66,158 @@ module.exports = {
 
                 //本地歌曲
                 localSongs: {
-                    coverUrl: '/avatar.jpg',
+                    coverUrl: 'https://s2.loli.net/2022/01/21/KYjOrXUu3SAWlga.jpg',
                     songs: [
+                        {
+                            path:'https://link.hhtjim.com/kw/145240987.mp3',
+                            songName:'At My Worst ',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/36/1/81858386.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/874319.mp3',
+                            songName: 'Talking to the Moon',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/86/71/959998653.jpg'
+                        },
                         {
                             path: 'https://link.hhtjim.com/163/1309689297.mp3',
                             songName: 'Better',
-                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202112/e377baa79eee554fb1a509dcd8d4b826--4033464894.jpg'
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/67/78/3249608844.jpg'
                         },
                         {
                             path: 'https://link.hhtjim.com/163/106212.mp3',
-                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
                             songName: 'Love The Way You Lie',
-                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/40/37/2067235852.jpg'
                         },
                         {
                             path: 'https://link.hhtjim.com/163/1484043441.mp3',
-                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
                             songName: 'What About',
-                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
+                            cover: 'https://s2.loli.net/2022/01/21/PXGSkwrIpBiOUm4.jpg'
                         },
                         {
-                            path: 'https://link.hhtjim.com/163/1393553542.mp3',
-                            //     http://m7.music.126.net/20211122125449/21a6c99de4d0329ee6df753bcda3c007/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2987355982/92c3/233a/d483/f901cdf76a32c8b912e80c093cc71cdc.mp3
-                            songName: 'Affection',
-                            cover: 'http://cdn-ali-img-shstaticbz.shanhutech.cn/bizhi/staticwp/202201/ec75de816ec1a1e965b9604a936e5c3e--333631415.jpg'
-                        }
+                            path: 'https://link.hhtjim.com/kw/6743740.mp3',
+                            songName: 'For him.',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/75/74/252071260.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/15651705.mp3',
+                            songName: 'IF YOU',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/52/11/1743583839.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/1248315.mp3',
+                            songName: 'Boyfriend',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/97/83/2471325083.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/41336099.mp3',
+                            songName: '90 ',
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/73/88/2609429011.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/40834629.mp3',
+                            songName: 'I Am You ',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/75/94/2993433410.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/141021523.mp3',
+                            songName: 'Love Is Gone (feat. Dylan Matthew)',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/47/23/2750680458.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/5746692.mp3',
+                            songName: 'Try ',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/51/20/1162448281.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/440208643.mp3',
+                            songName: 'Psycho, Pt. 2 ',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/51/20/1162448281.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/21038748.mp3',
+                            songName: 'Poker Face',
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/32/30/3974407903.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/5272817.mp3',
+                            songName: 'Meant To Be',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/58/1/1183672904.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/55890524.mp3',
+                            songName: '지나갈 테니 (Been Through) ',
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/81/91/4067067189.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/56507920.mp3',
+                            songName: '사이 ',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/70/96/2050795391.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/90421476.mp3',
+                            songName: '陪你 ',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/39/50/2449715636.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/1387645468.mp3',
+                            songName: '那家花店 ',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/9/7/4106501921.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/165923393.mp3',
+                            songName: '哪里都是你 ',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/60/23/2588031064.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/97058.mp3',
+                            songName: '慢慢 ',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/91/98/2091382702.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/528817.mp3',
+                            songName: '我们俩 ',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/36/20/2502176495.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/173428442.mp3',
+                            songName: '输入法打可爱按第五(纯享版) ',
+                            cover: 'https://img1.kuwo.cn/star/albumcover/500/69/25/1727684161.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/1294899029.mp3',
+                            songName: '心事 ',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/21/31/3114801502.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/490595927.mp3',
+                            songName: '不用去猜 ',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/3/19/3882298037.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/320058.mp3',
+                            songName: '单车',
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/52/60/2059257085.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/86509214.mp3',
+                            songName: '大城小爱(Live)',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/50/96/251744353.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/163/1422461683.mp3',
+                            songName: '就是爱你(正式版)',
+                            cover: 'https://img4.kuwo.cn/star/albumcover/500/23/58/1956405917.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/440615.mp3',
+                            songName: '花海',
+                            cover: 'https://img3.kuwo.cn/star/albumcover/500/72/44/3648126291.jpg'
+                        },
+                        {
+                            path: 'https://link.hhtjim.com/kw/94237.mp3',
+                            songName: '七里香',
+                            cover: 'https://img2.kuwo.cn/star/albumcover/500/30/97/4276557883.jpg'
+                        },
                     ]
                 }
             }
@@ -104,7 +231,7 @@ module.exports = {
                 bubbleNumber: 0.14,
 
                 //气泡透明度 0到1之间的小数
-                bubbleAlpha: 0.6,
+                bubbleAlpha: 0.4,
 
                 //透明度变化速度，越接近于0越好
                 alphaChangeSpeed: 0.00001,
@@ -130,7 +257,7 @@ module.exports = {
             'archive',
             {
                 //需要排除的页面url，在该数组里面的路径，都不会被统计
-                excludes: ['/404.html','/about/','/mood/','/link/','/tag/','/photo/'],
+                excludes: ['/404.html','/about/','/mood/','/link/','/tag/','/photo/','/aurora-archive/','/aurora-music/','/aurora-register/','/aurora-coze/','/archive/','/'],
                 //当某篇文章没有标题时，将使用下面值进行替换
                 noTitle: '暂时没有标题配置'
             }
@@ -148,7 +275,7 @@ module.exports = {
         [
             "link",
             {
-                href: "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
+                href: "https://s2.loli.net/2022/01/21/PXGSkwrIpBiOUm4.jpg",
                 rel: "icon",
             },
         ],
@@ -178,7 +305,7 @@ module.exports = {
 
     lang: 'zh-CN',
 
-    base: '/blog/',
+    // base: '/blog/',
 
     //设置运行npm run dev的端口
     port: 8080,
@@ -188,25 +315,20 @@ module.exports = {
         donate:{articlePage: false},
         //这里配置导航栏项，建议将navbar提取出，比如navbar.js
         navbar: [
-            {
-                text: '必应搜索',
-                link: 'https://cn.bing.com/',
-                iconClass: 'aurora-navbar-si-glyph-billiard-ball'
-            },
-            {
-                text: '算法相关',
-                iconClass: 'aurora-navbar-si-glyph-game-1',
-                children: [
-                    {
-                        text: 'LeetCode',
-                        link: 'https://leetcode-cn.com/problemset/all/'
-                    },
-                    {
-                        text: '书籍',
-                        link: 'https://programmercarl.com/'
-                    }
-                ]
-            },
+            // {
+            //     text: '算法相关',
+            //     iconClass: 'aurora-navbar-si-glyph-billiard-ball',
+            //     children: [
+            //         {
+            //             text: 'LeetCode',
+            //             link: 'https://leetcode-cn.com/problemset/all/'
+            //         },
+            //         {
+            //             text: '书籍',
+            //             link: 'https://programmercarl.com/'
+            //         }
+            //     ]
+            // },
             /*{
                 text: "所有配置",
                 link: '/home/config.html',
@@ -226,6 +348,14 @@ module.exports = {
                             {
                                 text: 'MVCAT',
                                 link: 'https://www.mvcat.com/movie/'
+                            },
+                            {
+                                text: '图片上传',
+                                link: 'https://sm.ms/'
+                            },
+                            {
+                                text: '音乐转换',
+                                link: 'https://link.hhtjim.com/'
                             }
                         ]
                     },
@@ -246,6 +376,20 @@ module.exports = {
                             }
                         ]
                     },
+                    {
+                        text: '算法相关',
+                        iconClass: 'aurora-navbar-si-glyph-billiard-ball',
+                        children: [
+                            {
+                                text: 'LeetCode',
+                                link: 'https://leetcode-cn.com/problemset/all/'
+                            },
+                            {
+                                text: '书籍',
+                                link: 'https://programmercarl.com/'
+                            }
+                        ]
+                    },
                 ]
             },
             {
@@ -263,6 +407,18 @@ module.exports = {
                     {
                         text: '高频前端汇总',
                         link: 'https://juejin.cn/post/6940945178899251230'
+                    },
+                    {
+                        text: '大厂面试秘籍',
+                        link: 'https://juejin.cn/post/6844903776512393224'
+                    },
+                    {
+                        text: '十大经典排序算法总结',
+                        link: 'https://juejin.cn/post/6844903444365443080'
+                    },
+                    {
+                        text: '牛客前端面试',
+                        link: 'https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2'
                     }
                 ]
             },
@@ -281,37 +437,63 @@ module.exports = {
                 ]
             },
             {
-                text: "about",
+                text: "About",
                 link: "/about",
-                iconClass: 'aurora-navbar-a-ziyuan107'
+                iconClass: 'aurora-navbar-a-ziyuan107',
+                
             },
             {
-                text: 'tag',
+                text: 'Tag',
                 link: '/tag',
                 iconClass: 'aurora-navbar-hua2'
             },
             {
-                text: "time",
+                text: "Time",
                 link: '/archive',
                 iconClass: 'aurora-navbar-shoulijindu-xuanzhong'
             },
+            // {
+            //     text: "Photos",
+            //     link: '/photo',
+            //     iconClass: 'aurora-navbar-si-glyph-egg'
+            // },
             {
-                text: "photo",
-                link: '/photos/readme.md',
-                iconClass: 'aurora-navbar-si-glyph-egg'
+                text: 'Mood',
+                iconClass: 'aurora-navbar-si-glyph-game-1',
+                children: [
+                    {
+                        text: 'chat',
+                        children:[
+                            {
+                                text: "mood",
+                                link: '/mood'
+                            },
+                            {
+                                text: "Photos",
+                                link: '/photo',
+                            },
+                            {
+                                text: "注册",
+                                link: '/aurora-register'
+                            },
+                            
+                        ]
+                    },
+                ]
             },
             {
                 text: 'IEWGANFIL',
-                link: 'https://gitee.com/iewgnafil',
+                link: 'https://github.com/iewganfil',
                 iconClass: 'aurora-navbar-github-circle'
-            }
+            },
+            
         ],
 
         //禁用黑夜模式，当前版本未提供
         darkMode: false,
 
         //项目地址
-        repo: "https://github.com/iewganfil",
+        repo: "https://github.com/iewganfil/blog",
 
         repoIconClass: 'IEWGANFIL',
 
@@ -332,7 +514,7 @@ module.exports = {
         repoLabel: "IEWGANFIL",
 
         //是否启用文章在线编辑
-        editLink: true,
+        editLink: false,
 
         //在线编辑文字
         editLinkText: "edit",
@@ -385,7 +567,7 @@ module.exports = {
                 symbol: '#icon-qq',
 
                 //鼠标移入此图标时，显示的图片，适用于微信等通过二维码添加好友
-                // showImgSrc: "https://ooszy.cco.vin/img/blog-public/wechat.jpg",
+                // showImgSrc: "https://s2.loli.net/2022/01/24/Ya4RIyxHZnS2UTs.jpg",
             },
             {
                 aHref: "https://github.com/iewgnafil",
@@ -449,13 +631,14 @@ module.exports = {
                 title: "我?",
                 describe: [
                     "目前是一名大三学生",
-                    "喜欢安静,不喜社交",
-                    "喜欢听音乐,什么类型都可",
-                    "喜欢技术,coding",
-                    "目前正在学习前端全栈",
-                    '喜欢看电影',
-                    "有点懒",
-                    "目前除了编程没有什么兴趣爱好",
+                    "偶尔动态、偶尔存在、不善社交",
+                    "把节奏放慢，生活也是，爱情例外",
+                    "遇到不好的事情，酌情处理，适当过滤",
+                    "你所见即我，好与坏都不重要",
+                    '门庭冷落，来者需诚',
+                    "不能与你感同身受但能做你的最佳听众",
+                    "会心动、会难过、会感动、会生气、想好好生活",
+                    "一个能力很小欲望很大的普通人☔"
                 ],
                 tag: [
                     "coding",
@@ -579,13 +762,8 @@ module.exports = {
 
         //这是配置随机背景；颜色 可以不设置，有默认值
         randomColor: [
-            "#ffcad4", "#d8e2dc", "#8d99ae", "#b8f2e6", "#84c7d0", "#aed9e0", "#00b4d8",
-            "#caf0f8", "#fbc4ab", "#fdc5f5", "#84dcc6", "#a9def9", "#fcf6bd", "#f0a6ca",
-            "#b9faf8", "#42a5f5", "#ff9800", "#b39ddb", "#6d45bb", "#b388ff", "#1565c0",
-            "#26c6da", "#5e548e", "#90f1ef", "#5b5f97", "#bbe6e4", "#42bfdd", "#72ddf7",
-            "#8093f1", "#9ed8d8", "#7ea8be", "#ef90b3", "#b892ef", "#c0b9dd", "#c0d9dd",
-            "#75c9c8", "#ded9e2", "#b5e2fa", "#62b6cb", "#5fa8d3", "#0fa3b1", "#b5e2fa",
-            "#5fa8d3", "#62b6cb", "#b892ff",
+            
+            "#54b8f7"
         ],
 
         //样式控制面板至多显示多少个字体和字体颜色，推荐不超过8个
@@ -607,14 +785,23 @@ module.exports = {
                         title: "IEWGANFIL",
 
                         //站点链接
-                        url: "https://gitee.com/iewgnafil",
+                        url: "http://8.134.129.78/",
 
                         //站点logo
-                        logo: "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
+                        logo: "https://s2.loli.net/2022/01/21/KYjOrXUu3SAWlga.jpg",
 
                         //站点描述
-                        describe: "人生若只是初见,何事秋风悲画扇"
+                        describe: "人生若只是初见,何事秋风悲画扇",
+
+                        cover: "https://s2.loli.net/2022/01/24/RxMbWdsieDP9I8c.png"
                     },
+                    {
+                        title: "小鱼想买718",
+                        url: "http://smallfish.space/",
+                        logo: "http://smallfish.space/img/1.jpg",
+                        describe: "不会辜负她和梦想的男人",
+                        cover: "https://s2.loli.net/2022/01/24/i3F5VRHSBszMNLY.png",//博客截屏
+                    }
                 ]
             }
         ],
@@ -657,6 +844,8 @@ module.exports = {
         //页脚信息，支持HTML，这是一个数组
         footer: [
             "Copyright © by IEWGANFIL All Rights Reserved.",
+            "<a target='_blank' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36073202360802' style='display:inline-block;text-decoration:none;height:20px;line-height:20px;'><img src='' style='float:left;'/><p style='float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;'>赣ICP备2022000943号-1</p></a>",
+            // "<a href="http://beian.miit.gov.cn/">赣ICP备2022000943号-1</a>"
         ],
 
         //是否显示页脚，控制全局
@@ -672,7 +861,7 @@ module.exports = {
         startRunTime: "1/19/2022 12:22:00",
 
         //网站运行时间前缀
-        prefixRuntime: "小破站已运行",
+        prefixRuntime: "IEW已运行",
 
         //公告，是一个数组，支持图片，HTML
         message: [
@@ -696,13 +885,13 @@ module.exports = {
         isFitter: true,
 
         //默认的圆角，传入数字
-        defaultBorderRadius: 10,
+        defaultBorderRadius: 20,
 
         //默认的透明度，传入0到1之间的小数，0表示全透明
         defaultOpacity: 1,
 
         //首页文章列表透明度是否跟随样式面板改变，true表示跟随，全白色,false表示不跟随
-        isHomePageFollow: false,
+        isHomePageFollow: true,
 
         //默认模糊度
         defaultBlur: 1,
@@ -718,8 +907,8 @@ module.exports = {
         //评论配置 请自己查看文档配置 https://aurora.cco.vin/config/comment/
         comment: {
             //是否显示评论
-            showComment: false,
-            serverURL: 'https://aurora-local-7hrjb6mp8-qsyyke.vercel.app/',
+            showComment: true,
+            serverURL: 'https://blog-message-8xz9uhokh-iewgnafil.vercel.app/',
             emojis: [
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
@@ -744,7 +933,7 @@ module.exports = {
             suffixBlog: " CODING",
 
             //头像，请放置在docs/public目录下，或者请保证此图片链接能够跨域访问，否则头像不能正常显示
-            avatar: "/avatar.jpg",
+            avatar: "https://s2.loli.net/2022/01/21/KYjOrXUu3SAWlga.jpg",
         },
 
         //是否展示从网络上请求回来的说说 如果启用，请自己写后台服务，修改源码，目前暂未在主题中加入，期望在将来能够实现，组件位置docs/.vuepress/theme/lib/client/components/Mood.vue
@@ -767,26 +956,25 @@ module.exports = {
 
             //文章顶部图片，数组，每次从数组中随机选择一张
             page: [
-                '/bg/2.JPG',
                 '/bg/3.JPG'
             ],
             //友情链接页面
             friend: [
-                '/bg/2.jpg'
+                '/bg/3.jpg'
             ],
             //标签页面
             tag: [
-                '/bg/2.jpg'
+                '/bg/3.jpg'
             ],
             //心情页面
             mood: [
-                '/bg/2.jpg'
+                '/bg/3.jpg'
             ],
         },
 
         //首页背景图片数组，考虑到使用随机图片，打开网站速度变慢，所以移除随机图片，使用自己设置的图片链接
         homeWps: [
-            '/bg/2.jpg'
+            'https://www.iewganfil.top/bg/3.JPG'
         ],
         /* homeWps: [
              '/bg/1.jpg',
@@ -812,7 +1000,7 @@ module.exports = {
 
         //侧边栏配置
         //github地址
-        githubUrl: "https://gitee.com/iewgnafil",
+        githubUrl: "https://github.com/iewgnafil",
 
         //最新文章数量，默认为6
         latestPageSize: 6,
@@ -821,7 +1009,7 @@ module.exports = {
         showHomePageImg: false,
 
         //文章侧边栏自动获取的层次 默认为1，也就是http://localhost:8080/config/feature/donate.html,只会自动生成feature目录下的文件
-        sidebarCatalogLevel: 3,
+        sidebarCatalogLevel: 1,
 
         //首页文章列表封面图api接口
         homePageImgApi: "",
@@ -862,7 +1050,7 @@ module.exports = {
         showRecommend: false,
 
         //文章页面是否显示上一页，下一页 默认展示
-        articlePagination: false,
+        articlePagination: true,
 
         //这个global暂时没用
         global: {
@@ -929,7 +1117,7 @@ module.exports = {
         },
 
         //这是v1.9.0新增加的功能 是否在文章页底部显示最后更新时间，贡献者，点击编辑,默认显示
-        showPageMeta: false,
+        showPageMeta: true,
 
         /*
         * 以下是1.11.0版本新增的配置项

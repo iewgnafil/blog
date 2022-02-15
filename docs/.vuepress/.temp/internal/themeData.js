@@ -4,25 +4,6 @@ export const themeData = {
   },
   "navbar": [
     {
-      "text": "必应搜索",
-      "link": "https://cn.bing.com/",
-      "iconClass": "aurora-navbar-si-glyph-billiard-ball"
-    },
-    {
-      "text": "算法相关",
-      "iconClass": "aurora-navbar-si-glyph-game-1",
-      "children": [
-        {
-          "text": "LeetCode",
-          "link": "https://leetcode-cn.com/problemset/all/"
-        },
-        {
-          "text": "书籍",
-          "link": "https://programmercarl.com/"
-        }
-      ]
-    },
-    {
       "text": "好用网站",
       "iconClass": "aurora-navbar-si-glyph-glass-water",
       "children": [
@@ -36,6 +17,14 @@ export const themeData = {
             {
               "text": "MVCAT",
               "link": "https://www.mvcat.com/movie/"
+            },
+            {
+              "text": "图片上传",
+              "link": "https://sm.ms/"
+            },
+            {
+              "text": "音乐转换",
+              "link": "https://link.hhtjim.com/"
             }
           ]
         },
@@ -53,6 +42,20 @@ export const themeData = {
             {
               "text": "vue",
               "link": "https://cn.vuejs.org/"
+            }
+          ]
+        },
+        {
+          "text": "算法相关",
+          "iconClass": "aurora-navbar-si-glyph-billiard-ball",
+          "children": [
+            {
+              "text": "LeetCode",
+              "link": "https://leetcode-cn.com/problemset/all/"
+            },
+            {
+              "text": "书籍",
+              "link": "https://programmercarl.com/"
             }
           ]
         }
@@ -73,6 +76,18 @@ export const themeData = {
         {
           "text": "高频前端汇总",
           "link": "https://juejin.cn/post/6940945178899251230"
+        },
+        {
+          "text": "大厂面试秘籍",
+          "link": "https://juejin.cn/post/6844903776512393224"
+        },
+        {
+          "text": "十大经典排序算法总结",
+          "link": "https://juejin.cn/post/6844903444365443080"
+        },
+        {
+          "text": "牛客前端面试",
+          "link": "https://www.nowcoder.com/tutorial/96/f5212664ab664984882b00635066ded2"
         }
       ]
     },
@@ -91,39 +106,57 @@ export const themeData = {
       ]
     },
     {
-      "text": "about",
+      "text": "About",
       "link": "/about",
       "iconClass": "aurora-navbar-a-ziyuan107"
     },
     {
-      "text": "tag",
+      "text": "Tag",
       "link": "/tag",
       "iconClass": "aurora-navbar-hua2"
     },
     {
-      "text": "time",
+      "text": "Time",
       "link": "/archive",
       "iconClass": "aurora-navbar-shoulijindu-xuanzhong"
     },
     {
-      "text": "photo",
-      "link": "/photos/readme.md",
-      "iconClass": "aurora-navbar-si-glyph-egg"
+      "text": "Mood",
+      "iconClass": "aurora-navbar-si-glyph-game-1",
+      "children": [
+        {
+          "text": "chat",
+          "children": [
+            {
+              "text": "mood",
+              "link": "/mood"
+            },
+            {
+              "text": "Photos",
+              "link": "/photo"
+            },
+            {
+              "text": "注册",
+              "link": "/aurora-register"
+            }
+          ]
+        }
+      ]
     },
     {
       "text": "IEWGANFIL",
-      "link": "https://gitee.com/iewgnafil",
+      "link": "https://github.com/iewganfil",
       "iconClass": "aurora-navbar-github-circle"
     }
   ],
   "darkMode": false,
-  "repo": "https://github.com/iewganfil",
+  "repo": "https://github.com/iewganfil/blog",
   "repoIconClass": "IEWGANFIL",
   "docsRepo": "https://github.com/iewganfil",
   "githubActions": true,
   "docsBranch": "main",
   "repoLabel": "IEWGANFIL",
-  "editLink": true,
+  "editLink": false,
   "editLinkText": "edit",
   "lastUpdated": true,
   "lastUpdatedText": "lastTime",
@@ -191,13 +224,14 @@ export const themeData = {
       "title": "我?",
       "describe": [
         "目前是一名大三学生",
-        "喜欢安静,不喜社交",
-        "喜欢听音乐,什么类型都可",
-        "喜欢技术,coding",
-        "目前正在学习前端全栈",
-        "喜欢看电影",
-        "有点懒",
-        "目前除了编程没有什么兴趣爱好"
+        "偶尔动态、偶尔存在、不善社交",
+        "把节奏放慢，生活也是，爱情例外",
+        "遇到不好的事情，酌情处理，适当过滤",
+        "你所见即我，好与坏都不重要",
+        "门庭冷落，来者需诚",
+        "不能与你感同身受但能做你的最佳听众",
+        "会心动、会难过、会感动、会生气、想好好生活",
+        "一个能力很小欲望很大的普通人☔"
       ],
       "tag": [
         "coding",
@@ -322,51 +356,7 @@ export const themeData = {
   "randomSawQuery": "hitokoto",
   "method": "get",
   "randomColor": [
-    "#ffcad4",
-    "#d8e2dc",
-    "#8d99ae",
-    "#b8f2e6",
-    "#84c7d0",
-    "#aed9e0",
-    "#00b4d8",
-    "#caf0f8",
-    "#fbc4ab",
-    "#fdc5f5",
-    "#84dcc6",
-    "#a9def9",
-    "#fcf6bd",
-    "#f0a6ca",
-    "#b9faf8",
-    "#42a5f5",
-    "#ff9800",
-    "#b39ddb",
-    "#6d45bb",
-    "#b388ff",
-    "#1565c0",
-    "#26c6da",
-    "#5e548e",
-    "#90f1ef",
-    "#5b5f97",
-    "#bbe6e4",
-    "#42bfdd",
-    "#72ddf7",
-    "#8093f1",
-    "#9ed8d8",
-    "#7ea8be",
-    "#ef90b3",
-    "#b892ef",
-    "#c0b9dd",
-    "#c0d9dd",
-    "#75c9c8",
-    "#ded9e2",
-    "#b5e2fa",
-    "#62b6cb",
-    "#5fa8d3",
-    "#0fa3b1",
-    "#b5e2fa",
-    "#5fa8d3",
-    "#62b6cb",
-    "#b892ff"
+    "#54b8f7"
   ],
   "maxFontColorArr": 8,
   "fontColor": [
@@ -389,9 +379,17 @@ export const themeData = {
       "links": [
         {
           "title": "IEWGANFIL",
-          "url": "https://gitee.com/iewgnafil",
-          "logo": "https://iphoto.macsc.com/icon/icon/256/20201022/96336/4178298.png",
-          "describe": "人生若只是初见,何事秋风悲画扇"
+          "url": "http://8.134.129.78/",
+          "logo": "https://s2.loli.net/2022/01/21/KYjOrXUu3SAWlga.jpg",
+          "describe": "人生若只是初见,何事秋风悲画扇",
+          "cover": "https://s2.loli.net/2022/01/24/RxMbWdsieDP9I8c.png"
+        },
+        {
+          "title": "小鱼想买718",
+          "url": "http://smallfish.space/",
+          "logo": "http://smallfish.space/img/1.jpg",
+          "describe": "不会辜负她和梦想的男人",
+          "cover": "https://s2.loli.net/2022/01/24/i3F5VRHSBszMNLY.png"
         }
       ]
     }
@@ -407,13 +405,14 @@ export const themeData = {
     "cgt"
   ],
   "footer": [
-    "Copyright © by IEWGANFIL All Rights Reserved."
+    "Copyright © by IEWGANFIL All Rights Reserved.",
+    "<a target='_blank' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=36073202360802' style='display:inline-block;text-decoration:none;height:20px;line-height:20px;'><img src='' style='float:left;'/><p style='float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;'>赣ICP备2022000943号-1</p></a>"
   ],
   "isShowFooter": true,
   "isShowThemeCopyright": false,
   "isShowRunTime": true,
   "startRunTime": "1/19/2022 12:22:00",
-  "prefixRuntime": "小破站已运行",
+  "prefixRuntime": "IEW已运行",
   "message": [
     "STUDY CODING",
     "⭐⭐⭐⭐⭐"
@@ -423,14 +422,14 @@ export const themeData = {
   "tagNoTitle": "暂时还没有标题哟",
   "mood": "IEWGANFIL",
   "isFitter": true,
-  "defaultBorderRadius": 10,
+  "defaultBorderRadius": 20,
   "defaultOpacity": 1,
-  "isHomePageFollow": false,
+  "isHomePageFollow": true,
   "defaultBlur": 1,
   "split": "~",
   "comment": {
-    "showComment": false,
-    "serverURL": "https://aurora-local-7hrjb6mp8-qsyyke.vercel.app/",
+    "showComment": true,
+    "serverURL": "https://blog-message-8xz9uhokh-iewgnafil.vercel.app/",
     "emojis": [
       "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus",
       "https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili",
@@ -444,7 +443,7 @@ export const themeData = {
     "author": "IEWGANFIL",
     "preBlog": "IFL",
     "suffixBlog": " CODING",
-    "avatar": "/avatar.jpg"
+    "avatar": "https://s2.loli.net/2022/01/21/KYjOrXUu3SAWlga.jpg"
   },
   "showOnlineMood": true,
   "showMoodEdit": false,
@@ -456,30 +455,29 @@ export const themeData = {
   "customTopImg": {
     "custom": true,
     "page": [
-      "/bg/2.JPG",
       "/bg/3.JPG"
     ],
     "friend": [
-      "/bg/2.jpg"
+      "/bg/3.jpg"
     ],
     "tag": [
-      "/bg/2.jpg"
+      "/bg/3.jpg"
     ],
     "mood": [
-      "/bg/2.jpg"
+      "/bg/3.jpg"
     ]
   },
   "homeWps": [
-    "/bg/2.jpg"
+    "https://www.iewganfil.top/bg/3.JPG"
   ],
   "homeWpsMobile": [
     "/bg/4.jpg"
   ],
   "pageSize": 3,
-  "githubUrl": "https://gitee.com/iewgnafil",
+  "githubUrl": "https://github.com/iewgnafil",
   "latestPageSize": 6,
   "showHomePageImg": false,
-  "sidebarCatalogLevel": 3,
+  "sidebarCatalogLevel": 1,
   "homePageImgApi": "",
   "mobileCutText": "IEWGANFIL",
   "sidebarTag": "categories",
@@ -491,7 +489,7 @@ export const themeData = {
   "sidebarAvatar": "/avatar.jpg",
   "sugCountPerMin": 300,
   "showRecommend": false,
-  "articlePagination": false,
+  "articlePagination": true,
   "global": {
     "sidebar": {
       "showStatus": true,
@@ -532,7 +530,7 @@ export const themeData = {
     "appKey": "qHYTbb91iOPLelyC9lpbXxLH",
     "masterKey": "eUwfvS3luIPnPiHS5SpEhDYr"
   },
-  "showPageMeta": false,
+  "showPageMeta": true,
   "randomSayApi": {
     "method": "GET",
     "urlApi": "https://v1.hitokoto.cn/?encode=text&c=a"

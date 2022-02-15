@@ -1,1 +1,17 @@
 /* 在此文件中，定义css变量,你便可以覆盖主题样式 */
+.home-bottom {
+  width: 85%;
+}
+.home-page-tag {
+  flex: 10;
+}
+.article-page-parent-pro {
+  width: 85%;
+}
+.page-sidebar-left {
+  flex: 10;
+}
+.footer{
+  width: 85%;
+  margin-top: 1rem;
+}

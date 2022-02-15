@@ -68,4 +68,5 @@ http://script.a.com/a.js	 主域相同，子域不相同，跨域</p>
 <li>transfer(可选)和message一起传递的一个对象，这个对象的所有权限将移交给消息接收方</li>
 </ul>
 <p>缺点: <strong>场景比较简单</strong></p>
+<p><a href="https://juejin.cn/post/6992525007716876325#heading-59" target="_blank" rel="noopener noreferrer">参考链接<ExternalLinkIcon/></a></p>
 </template>

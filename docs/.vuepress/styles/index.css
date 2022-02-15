@@ -1,6 +1,79 @@
 /* 在此文件中，使用palette.css文件中的变量，你可以在此文件，直接覆盖主题的所有css样式，比如下面这些 */
 
 /*隐藏滚动条*/
-/* body::-webkit-scrollbar {
-     display: none;
+body::-webkit-scrollbar {
+  /* display: none; */
+  background: #969595;
+  width: 0.5rem;
+}
+
+.sidebar-github {
+  background-color: #87cefa;
+}
+#cutPageActive {
+  background-color: #87cefa;
+  color: var(--aurora-pagination-active-color);
+}
+.mood-item-content {
+  background-color: #f7f7f7;
+  text-align: left;
+  align-items: center;
+  overflow: hidden;
+  padding: 6px;
+  border-radius: 10px;
+}
+.back-to-top {
+  --back-to-top-color: var(--c-brand);
+  --back-to-top-color-hover: #245f8f;
+}
+.aurora-sidebar-message:before {
+  content: "";
+  color: #87cefa;
+  margin-right: 5px;
+}
+.link-item {
+  box-shadow: none;
+}
+.tag-page {
+  box-shadow: none;
+}
+.tag-page-right-top span {
+  color: #24526e;
+}
+
+.tag-page-item {
+  background-color: #f7f7f7;
+}
+.tag-page-left{
+  display: none;
+}
+.page-bottom-next {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  /* padding-bottom: 2rem; */
+}
+.home-page-tag-content {
+  padding: 10px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  overflow-y: scroll;
+  background-image: none;
+}
+
+.donate-bottom-button button, .edit-upload button {
+  background-color: #87cefa !important;
+}
+.donate-bottom-button button, .edit-upload button {
+  background-color: #87cefa !important;
+}
+/* .aurora-music-song-active, .aurora-music-song-active:before {
+  color: #1b4e79 !important;
 } */
+.aurora-music-song-active, .aurora-music-song-active:before {
+  color: #87cefa !important;
+}
+.aurora-music-operate span:before, .aurora-music-shrink span:before, .aurora-music-song:before {
+  color: #87cefa !important;
+}
